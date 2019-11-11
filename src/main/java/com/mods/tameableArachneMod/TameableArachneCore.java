@@ -175,7 +175,7 @@ public class TameableArachneCore
 
             if (HarpySpawnFlg)
             {
-                EntityRegistry.addSpawn(EntityHarpy.class, 30, 1, 3, EnumCreatureType.CREATURE, Biomes.FOREST, Biomes.JUNGLE, Biomes.BIRCH_FOREST, Biomes.ROOFED_FOREST, Biomes.FOREST_HILLS, Biomes.BIRCH_FOREST_HILLS, Biomes.JUNGLE_HILLS, Biomes.JUNGLE_EDGE);
+                EntityRegistry.addSpawn(EntityHarpy.class, 30, 1, 3, EnumCreatureType.CREATURE, Biomes.MOUNTAINS, Biomes.WOODED_MOUNTAINS, Biomes.GRAVELLY_MOUNTAINS, Biomes.MODIFIED_GRAVELLY_MOUNTAINS, Biomes.MOUNTAIN_EDGE);
             }
             if (CraftSpawnEgg)
             {
